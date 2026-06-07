@@ -12,8 +12,8 @@ export default function Home() {
             <a href="#how">How it works</a>
             <a href="https://github.com/noyo12394/Product_spec">Docs</a>
           </div>
-          <a className="btn btn-ghost" href="#cta">
-            Request access
+          <a className="btn btn-primary" href="/dashboard">
+            Launch app →
           </a>
         </nav>
       </header>
@@ -35,8 +35,8 @@ export default function Home() {
               Every number carries a confidence score and a full audit trail.
             </p>
             <div className="cta" id="cta">
-              <a className="btn btn-primary" href="#features">
-                See what it does →
+              <a className="btn btn-primary" href="/dashboard">
+                Launch the app →
               </a>
               <a
                 className="btn btn-ghost"
